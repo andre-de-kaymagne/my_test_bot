@@ -11,6 +11,9 @@ for i in w2:
     d2.setdefault(i, w2.count(i))
 del d2[' ']
 
+for k, v in d2.items():
+    print(k, v)
+
 
 print('YES' if d1 == d2 else 'NO')
 print(d1)
